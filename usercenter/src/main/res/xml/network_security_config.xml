@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--解決 java.net.UnknownServiceException:
+ CLEARTEXT communication to %{域名} not permitted by network security policy-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true"/>
+</network-security-config>
