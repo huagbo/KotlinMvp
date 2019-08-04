@@ -29,9 +29,15 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
     implementation project(path: ':provider')
-    if(isUserModule.toBoolean()){
+    if (isUserModule.toBoolean()) {
         implementation project(path: ':usercenter')
     }
 }
+
+
+
