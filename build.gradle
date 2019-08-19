@@ -8,6 +8,7 @@ buildscript {
     ext.okHttp_version = '4.0.1'
     ext.dagger2_version = '2.23.2'
     ext.rxlifecycle_version = '2.2.2'
+    ext.anko_version = '0.10.8'
     repositories {
         google()
         jcenter()

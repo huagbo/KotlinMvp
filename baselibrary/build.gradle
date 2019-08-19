@@ -66,5 +66,7 @@ dependencies {
     //生命周期管理
     api "com.trello.rxlifecycle2:rxlifecycle-kotlin:${rxlifecycle_version}"
     api "com.trello.rxlifecycle2:rxlifecycle-components:${rxlifecycle_version}"
+
+    api "org.jetbrains.anko:anko-commons:$anko_version"
 }
 
